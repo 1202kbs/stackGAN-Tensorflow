@@ -15,7 +15,7 @@ If you want to use `--show_progress True` option, you need to install python pac
 Usage
 -----
 
-To train a vanilla InfoGAN with z dimension 14, stage1 generator input code dimension 2, stage 2 generator input code dimension 10, run the following command:
+To train a vanilla stackGAN with z dimension 14, stage1 generator input code dimension 2, stage 2 generator input code dimension 10, run the following command:
 
     $ python main.py --z_dim 14 --c0_dim 2 --c1_dim 10
 
